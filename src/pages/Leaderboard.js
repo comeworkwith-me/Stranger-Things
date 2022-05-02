@@ -50,7 +50,7 @@ const Leaderboard = () => {
             <Link to="/" className="home-link">
               <div className="header-titles">
                 <img
-                src=".../public/STL.PNG"
+                src="/STL.PNG"
                 alt="Stranger Things Logo"
                 height={100}
                 />
