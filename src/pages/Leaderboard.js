@@ -5,7 +5,6 @@ import { BackButton } from '../components/BackButton/BackButton';
 import { useConnectedWallet } from '@terra-money/wallet-provider';
 import WalletAddress from '../components/WalletAddress/WalletAddress';
 
-
 const Leaderboard = () => {
     const connectedWallet = useConnectedWallet();
     const [scores, setScores] = useState();
@@ -50,7 +49,7 @@ const Leaderboard = () => {
             <Link to="/" className="home-link">
               <div className="header-titles">
                 <img
-                src=".../STL.PNG"
+                src="../STL.PNG"
                 alt="Stranger Things Logo"
                 height={100}
                 />
