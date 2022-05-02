@@ -1,4 +1,5 @@
 import './App.css';
+import STL from '../public/STL.png'
 import React from 'react';
 import { GameMenu } from './components/GameMenu/GameMenu';
 import WalletAddress from './components/WalletAddress/WalletAddress';
@@ -17,8 +18,8 @@ function App() {
       <header>
         <div className="header-titles">
         <img
-            src="/STL.PNG"
-            alt="Stranger Things Logo"
+            src={STL}
+            alt={"Stranger Things Logo"}
             height={400}
           />
         </div>
