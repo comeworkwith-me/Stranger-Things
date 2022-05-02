@@ -17,7 +17,7 @@ function App() {
       <header>
         <div className="header-titles">
         <img
-            src="./STL.png"
+            src="../STL.png"
             alt={"Stranger Things Logo"}
             height={400}
           />
