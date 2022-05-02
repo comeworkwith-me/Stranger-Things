@@ -16,12 +16,12 @@ span {
 
 .App {
     text-align: center;
-    background-color: #282c34;
     min-height: 90vh;
+    overflow: hidden;
 }
 
 .App-header {
-    background-color: #282c34;
+    
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -29,11 +29,12 @@ span {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    padding: 10px;
 }
 
 .header-titles {
     color: white;
-    line-height: 20px;
+    line-height: 10px;
     text-align: center;
     cursor: pointer;
 }
@@ -45,12 +46,12 @@ span {
     position: absolute;
     top: 65px;
     right: 50px;
-    height: 45px;
+    height: 22px;
     border: 0;
     padding: 0 40px;
-    border-radius: 5px;
+    border-radius: 20px;
     animation: gradient-animation 4s ease infinite;
-    background-image: linear-gradient(to right, #ff6e7f 0%, #f09819 100%);
+    background-image: linear-gradient(to right, #0f027d 0%, #D22B2B 100%);
 }
 
 .home-link{
@@ -75,9 +76,11 @@ span {
 }
 
 .connect-wallet-button {
-    background-image: linear-gradient(to right, #c267ee 0%, #51daec 100%);
+    background-image: linear-gradient(to right, #D22B2B 0%, #CC5500 100%);
     background-size: 200% 200%;
     animation: gradient-animation 4s ease infinite;
+    border-radius: 30px;
+    height: 20px;
 }
 
 .footer-container {
@@ -115,25 +118,26 @@ span {
 }
 
 .game-menu-container {
-    padding: 100px;
+    padding-bottom: 90px;
 }
 
 .game-menu{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .menu-item {
     color: white;
     text-decoration: none;
+    font-size: 22px;
 }
 
 .item-text {
-    line-height: 3;
+    line-height: 1;
 }
 
 .item-text:hover {
-    color: #b0d59f;
+    color: #CC5500;
     text-decoration: none;
     cursor: pointer;
 }
@@ -163,10 +167,14 @@ span {
 }
 
 .game-container {
-    border: 1px solid white;
+    border: 5px solid white;
     min-height: 80vh;
     min-width: 80vw;
     margin: 20px;
+    background-image: url("https://media.giphy.com/media/mupHrOkUJOAEidyAp8/giphy.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #target{
@@ -183,7 +191,7 @@ span {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    height: 60px;
+    height: 150px;
 }
 
 .set-score-btn {
@@ -192,7 +200,7 @@ span {
 
 #marine-img {
     position: absolute;
-    top: 80%;
+    top: 63.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
