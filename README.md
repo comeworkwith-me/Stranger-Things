@@ -24,5 +24,13 @@ I started with the backend. The env setup required Docker Compose, Node.js, Rust
 <br></br>
 
 Now that I have a smart contract I can read and write data to, I move on to the frontend. I start by adding the Terra wallet provider so users can connect their wallet. From here I setup the menu using React Router and create the pages for the web app. Lastly, I write the logic to read and write data from my smart contract before polishing any last details and deploying the app.
+<br></br>
 
+# 🚀 OPTIMIZATIONS
 
+This project was originally built in 2022. To optimize it, I plan to refactor using Next.js for page componenets, pre-rendering, and other funtionality improvements. I'd also switch from the Terra blockchain to the Solana blockchain.
+<br></br>
+
+# 🤓 LESSONS LEARNED
+
+Throughout this build, I was introduced to Docker Compose and COSMWASM. I learned the basics of Terra blockchain and expanded my Rust knowledge.
