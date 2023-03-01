@@ -6,9 +6,9 @@
 
 Stranger Things is a browser game based on the Netflix series!
 
-![Stranger Things Game Home Page](https://github.com/comeworkwith-me/terra/blob/main/public/Stranger%20Things.png?raw=true)
-![Stranger Things Game About Page](https://github.com/comeworkwith-me/terra/blob/main/public/Stranger%20Things%202.png?raw=true)
-![Stranger Things Game Play Page](https://github.com/comeworkwith-me/terra/blob/main/public/Stranger%20Things%203.png?raw=true)
+![Stranger Things Game Home Page](https://github.com/comeworkwith-me/stranger-things/blob/main/public/Stranger%20Things.png?raw=true)
+![Stranger Things Game About Page](https://github.com/comeworkwith-me/stranger-things/blob/main/public/Stranger%20Things%202.png?raw=true)
+![Stranger Things Game Play Page](https://github.com/comeworkwith-me/stranger-things/blob/main/public/Stranger%20Things%203.png?raw=true)
 
 
 <br></br>
